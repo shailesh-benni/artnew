@@ -1,0 +1,9 @@
+body {
+  background-color: white;
+  background-size: 20px 20px;
+  position: relative;
+}
+
+html{
+  scroll-behavior: smooth;
+  }
