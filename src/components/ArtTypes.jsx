@@ -23,11 +23,6 @@ const ArtTypes = () => {
       title: "Modern Art",
       image: img1,
       link: "/modern-art"
-    },
-    {
-      title: "Floral Art",
-      image: img1,
-      link: "/floral-art"
     }
   ];
 
