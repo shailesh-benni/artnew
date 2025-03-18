@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './Hero.css';
+import img1 from '../assets/arttest.jpg'
 
 const Hero = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -7,14 +8,14 @@ const Hero = () => {
 
   const slides = [
     {
-      image: "/living-room.jpg",
-      title: "SHOP NOW",
+      image: img1,
+      title: "",
       overlay: true
     },
     {
-      image: "/fleurs-de-la-terre.jpg",
-      title: "Fleurs de la Terre",
-      subtitle: "New Launch",
+      image: img1,
+      title: "",
+      subtitle: "artCom",
       overlay: true
     },
     // Add more slides as needed

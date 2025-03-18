@@ -1,31 +1,32 @@
 import React from 'react';
 import './ArtTypes.css';
+import img1 from '../assets/arttest.jpg'
 
 const ArtTypes = () => {
   const artTypes = [
     {
       title: "Travel Inspired Art",
-      image: "../assets/sample.png",
+      image: img1,
       link: "/travel-art"
     },
     {
       title: "Abstract Art",
-      image: "/abstract-art.jpg",
+      image: img1,
       link: "/abstract-art"
     },
     {
       title: "Boho Art",
-      image: "/boho-art.jpg",
+      image: img1,
       link: "/boho-art"
     },
     {
       title: "Modern Art",
-      image: "/modern-art.jpg",
+      image: img1,
       link: "/modern-art"
     },
     {
       title: "Floral Art",
-      image: "/floral-art.jpg",
+      image: img1,
       link: "/floral-art"
     }
   ];
