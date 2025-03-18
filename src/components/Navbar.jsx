@@ -31,7 +31,7 @@ const Navbar = () => {
         <div className="header-center">
           <a href="/" className="logo">
             <span className="logo-symbol">Ⓐ</span>
-            TRAVELARTY
+            Art.com
           </a>
         </div>
 

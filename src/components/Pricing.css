@@ -1,0 +1,115 @@
+.pricing {
+  padding: 60px 20px;
+  background-color: white;
+  color: #333;
+}
+
+.pricing-heading {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.pricing-heading h2 {
+  font-size: 32px;
+  font-weight: 500;
+  color: #333;
+  margin: 0;
+}
+
+.pricing-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.pricing-card {
+  background-color: white;
+  border-radius: 12px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  border: 1px solid #eee;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.plan-header {
+  margin-bottom: 8px;
+}
+
+.plan-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.plan-title h3 {
+  font-size: 24px;
+  font-weight: 500;
+  margin: 0;
+  color: #333;
+}
+
+.icon {
+  font-size: 24px;
+}
+
+.plan-description {
+  color: #666;
+  margin: 0;
+  font-size: 14px;
+}
+
+.price {
+  display: flex;
+  align-items: baseline;
+  gap: 4px;
+}
+
+.currency {
+  font-size: 24px;
+  font-weight: 500;
+  color: #333;
+}
+
+.amount {
+  font-size: 48px;
+  font-weight: 500;
+  color: #333;
+}
+
+.period {
+  color: #666;
+  margin-left: 4px;
+}
+
+.plan-button {
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 12px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  width: 100%;
+}
+
+.plan-button:hover {
+  background-color: #444;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+  .pricing-container {
+    grid-template-columns: 1fr;
+  }
+  
+  .pricing {
+    padding: 40px 20px;
+  }
+} 
