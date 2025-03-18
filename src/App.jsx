@@ -2,6 +2,7 @@ import ArtTypes from "./components/ArtTypes"
 import Hero from "./components/Hero"
 import Navbar from "./components/Navbar"
 import Pricing from "./components/Pricing"
+import Contact from "./components/Contact"
 
 function App() {
 
@@ -9,8 +10,9 @@ function App() {
   <div className='App'>
     <Navbar/>
     <Hero/>  
-    <Pricing/>
     <ArtTypes/>
+    <Pricing/>
+    <Contact/>
   </div>
   )
 }

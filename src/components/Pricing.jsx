@@ -9,9 +9,9 @@ const Pricing = () => {
 
   const plans = [
     {
-      name: "Free trial",
-      description: "Best for small teams and freelancers.",
-      price: "0",
+      name: "Sketch Paper Layout A4",
+      description: "It follows the A4 standard dimensions (210mm × 297mm), ensuring crisp and precise detailing.",
+      price: "600",
       buttonText: "Details",
       icon: "📦",
       image: demoImage,
@@ -20,26 +20,15 @@ const Pricing = () => {
       support: "Email"
     },
     {
-      name: "Business plan",
-      description: "Best for growing teams.",
-      price: "20",
+      name: "Sketch Paper Layout A3",
+      description: "It follows the A3 standard dimensions (297mm × 420mm), providing a larger workspace for detailed compositions and expansive illustrations.",
+      price: "900",
       buttonText: "Details",
       icon: "📦",
       image: demoImage,
       storage: "50GB",
       users: "10",
       support: "Priority"
-    },
-    {
-      name: "Enterprise plan",
-      description: "Best for large organizations.",
-      price: "40",
-      buttonText: "Details",
-      icon: "📦",
-      image: demoImage,
-      storage: "100GB",
-      users: "Unlimited",
-      support: "24/7 Dedicated"
     }
   ];
 
@@ -70,9 +59,9 @@ const Pricing = () => {
             </div>
             
             <div className="price">
-              <span className="currency">$</span>
+              <span className="currency">Rs.</span>
               <span className="amount">{plan.price}</span>
-              <span className="period">per month</span>
+              
             </div>
 
             <button 

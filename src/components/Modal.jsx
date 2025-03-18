@@ -19,7 +19,7 @@ const Modal = ({ isOpen, onClose, plan }) => {
           <div className="modal-details">
             <h4>Plan Details:</h4>
             <ul>
-              <li>Access to all basic features</li>
+              <li>Pencil & Charcoal Sketching – Allows fine details and shading.</li>
               <li>Up to {plan.storage} storage</li>
               <li>{plan.users} team members</li>
               <li>{plan.support} support</li>
