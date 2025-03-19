@@ -27,7 +27,7 @@ const Navbar = () => {
       
       <div className="main-header">
         <div className="header-left">
-          <button 
+         {/*<button 
             className="menu-toggle"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
           >
@@ -40,7 +40,7 @@ const Navbar = () => {
                 <span></span>
               </div>
             )}
-          </button>
+          </button>*/}
         </div>
 
         <div className="header-center">
@@ -50,7 +50,7 @@ const Navbar = () => {
           </a>
         </div>
 
-        <div className="header-right">
+       {/*} <div className="header-right">
           <button className="search-btn">
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
               <circle cx="11" cy="11" r="8"/>
@@ -63,10 +63,10 @@ const Navbar = () => {
               <line x1="3" y1="6" x2="21" y2="6"/>
             </svg>
           </button>
-        </div>
+        </div>*/}
       </div>
 
-      <div className={`mobile-menu ${isMenuOpen ? 'open' : ''}`}>
+    {/*   <div className={`mobile-menu ${isMenuOpen ? 'open' : ''}`}>
         <nav className="menu-links">
           <a href="/" className="menu-item">HOME</a>
           <a href="/collections" className="menu-item">
@@ -89,7 +89,7 @@ const Navbar = () => {
           <a href="/business" className="menu-item">ART FOR BUSINESSES</a>
           <a href="/about" className="menu-item">ABOUT US</a>
         </nav>
-      </div>
+      </div>*/}
     </header>
   );
 };
