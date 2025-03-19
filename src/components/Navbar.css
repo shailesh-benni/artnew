@@ -5,6 +5,16 @@
     width: 100%;
     z-index: 1000;
     background: white;
+    transform: translateY(0);
+    transition: transform 0.3s ease;
+  }
+  
+  .header-hidden {
+    transform: translateY(-100%);
+  }
+  
+  .header.mobile-menu-open {
+    transform: translateY(0);
   }
   
   .announcement-bar {

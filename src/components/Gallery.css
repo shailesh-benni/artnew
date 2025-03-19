@@ -1,0 +1,239 @@
+.gallery {
+  padding: 40px 20px;
+  background-color: #fff;
+}
+
+.gallery-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 30px;
+}
+
+.art-card {
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.art-card:hover {
+  transform: translateY(-5px);
+}
+
+.art-image {
+  position: relative;
+  padding-top: 100%;
+  overflow: hidden;
+}
+
+.art-image img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.art-card:hover .art-image img {
+  transform: scale(1.05);
+}
+
+.art-info {
+  padding: 20px;
+}
+
+.art-info h3 {
+  margin: 0 0 8px 0;
+  font-size: 18px;
+  color: #333;
+}
+
+.artist {
+  color: #666;
+  margin: 0 0 12px 0;
+  font-size: 14px;
+}
+
+.art-details {
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 12px;
+}
+
+.art-details p {
+  margin: 4px 0;
+}
+
+.art-price {
+  font-size: 18px;
+  font-weight: 500;
+  color: #333;
+  margin-bottom: 12px;
+}
+
+.card-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.like-btn, .cart-btn {
+  padding: 8px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 18px;
+  transition: transform 0.2s ease;
+}
+
+.like-btn:hover, .cart-btn:hover {
+  transform: scale(1.1);
+}
+
+/* Updated Modal Styles */
+.art-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.9);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.art-modal-simple {
+  position: relative;
+  max-width: 90vw;
+  max-height: 90vh;
+  overflow: hidden;
+}
+
+.modal-image-simple {
+  width: 100%;
+  height: 100%;
+}
+
+.modal-image-simple img {
+  max-width: 100%;
+  max-height: 90vh;
+  object-fit: contain;
+}
+
+.modal-close-btn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: none;
+  border: none;
+  font-size: 28px;
+  color: white;
+  cursor: pointer;
+  z-index: 2;
+  opacity: 0.8;
+  transition: opacity 0.3s ease;
+}
+
+.modal-close-btn:hover {
+  opacity: 1;
+}
+
+.modal-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  padding: 30px;
+}
+
+.modal-image {
+  width: 100%;
+  height: 100%;
+}
+
+.modal-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.modal-info {
+  padding: 20px 0;
+}
+
+.modal-info h2 {
+  margin: 0 0 10px 0;
+  font-size: 24px;
+  color: #333;
+}
+
+.modal-artist {
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.modal-details {
+  margin-bottom: 30px;
+}
+
+.modal-details p {
+  margin: 10px 0;
+  color: #555;
+}
+
+.modal-price {
+  font-size: 20px;
+  color: #333;
+  margin: 20px 0;
+}
+
+.modal-actions {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.add-to-cart, .add-to-wishlist {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+.add-to-cart {
+  background: #333;
+  color: white;
+}
+
+.add-to-wishlist {
+  background: #f5f5f5;
+  color: #333;
+}
+
+.add-to-cart:hover, .add-to-wishlist:hover {
+  transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+  .modal-content {
+    grid-template-columns: 1fr;
+    padding: 20px;
+  }
+
+  .art-modal {
+    width: 95%;
+  }
+
+  .modal-actions {
+    flex-direction: column;
+  }
+} 

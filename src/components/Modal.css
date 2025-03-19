@@ -101,10 +101,7 @@
   color: #333;
 }
 
-.price-period {
-  color: #666;
-  margin-left: 5px;
-}
+
 
 @media (max-width: 768px) {
   .modal-content {

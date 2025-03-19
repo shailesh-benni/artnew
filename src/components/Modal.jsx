@@ -26,8 +26,7 @@ const Modal = ({ isOpen, onClose, plan }) => {
             </ul>
             
             <div className="modal-price">
-              <span className="price-amount">${plan.price}</span>
-              <span className="price-period">per month</span>
+              <span className="price-amount">Rs.{plan.price}</span>
             </div>
           </div>
         </div>
