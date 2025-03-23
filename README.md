@@ -1,12 +1,64 @@
-# React + Vite
+# Sketch Artist Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
+The **Sketch Artist Website** is a React.js-based portfolio platform for showcasing digital and hand-drawn sketches. This website provides an interactive and visually appealing experience for users to browse and appreciate the artist's work.
 
-Currently, two official plugins are available:
+## Features
+- 🎨 **Gallery Section**: Display artwork in a responsive and organized layout.
+- 🖌️ **Categories**: Filter sketches based on different styles or themes.
+- 📜 **About Page**: Introduce the artist with a biography and artistic journey.
+- 📩 **Contact Form**: Allow users to connect with the artist for commissions or inquiries.
+- 🔥 **Animations & Transitions**: Smooth UI interactions with CSS and libraries like Framer Motion.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tech Stack
+- **Frontend**: React.js, Tailwind CSS
+- **State Management**: React Hooks (useState, useEffect)
+- **Animations**: Framer Motion / AOS (Animate on Scroll)
+- **Hosting**: Vercel / Netlify (Optional)
 
-## Expanding the ESLint configuration
+## Installation & Setup
+1. **Clone the repository:**
+   ```sh
+   git clone https://github.com/yourusername/sketch-artist-website.git
+   cd sketch-artist-website
+   ```
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+2. **Install dependencies:**
+   ```sh
+   npm install
+   ```
+
+3. **Start the development server:**
+   ```sh
+   npm run dev
+   ```
+   The website will be available at `http://localhost:5173/`.
+
+## Folder Structure
+```
+/sketch-artist-website
+│-- /src
+│   │-- /components   # Main pages like Home, Gallery, About, Contact   
+│   │-- /assets      # Images and icons
+│   │-- App.js       # Main application file
+│   │-- index.js     # Entry point
+│-- public          # Static assets
+│-- package.json    # Project dependencies and scripts
+```
+
+## Deployment
+To deploy the project on **Vercel**, run:
+```sh
+vercel deploy
+```
+For **Netlify**, use:
+```sh
+netlify deploy
+```
+
+## Contribution
+Feel free to fork the repository and submit a pull request with improvements or new features.
+
+## License
+This project is licensed under the [MIT License](LICENSE).
+
