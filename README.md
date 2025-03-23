@@ -19,8 +19,8 @@ The **Sketch Artist Website** is a React.js-based portfolio platform for showcas
 ## Installation & Setup
 1. **Clone the repository:**
    ```sh
-   git clone https://github.com/yourusername/sketch-artist-website.git
-   cd sketch-artist-website
+   git clone https://github.com/shailesh-benni/artnew
+   cd artnew
    ```
 
 2. **Install dependencies:**
