@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import './Hero.css';
-import img1 from '../assets/arttest.jpg'
+import img1 from '../assets/sketches/penart/krishnaradha.jpg'
+import img2 from '../assets/sketches/heroart.png'
+
 
 const Hero = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -13,12 +15,12 @@ const Hero = () => {
       overlay: true
     },
     {
-      image: img1,
+      image: img2,
       title: "",
       subtitle: "artCom",
       overlay: true
     },
-    // Add more slides as needed
+  
   ];
 
   useEffect(() => {
@@ -26,7 +28,7 @@ const Hero = () => {
     if (!isPaused) {
       interval = setInterval(() => {
         setCurrentSlide((prev) => (prev + 1) % slides.length);
-      }, 5000); // Change slide every 5 seconds
+      }, 5000); 
     }
     return () => clearInterval(interval);
   }, [isPaused, slides.length]);
