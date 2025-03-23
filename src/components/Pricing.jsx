@@ -22,7 +22,7 @@ const Pricing = () => {
     {
       name: "Sketch Paper Layout A3",
       description: "It follows the A3 standard dimensions (297mm × 420mm), providing a larger workspace for detailed compositions and expansive illustrations.",
-      price: "900",
+      price: "1000",
       buttonText: "Details",
       icon: "📦",
       image: demoImage,

@@ -1,30 +1,33 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import './ArtTypes.css';
-import img1 from '../assets/arttest.jpg'
+import charcoal from '../assets/sketches/charcol/birdonnose.jpg';
+import graphite from '../assets/sketches/graphite/baalkrishna.jpg';
+import painting from '../assets/sketches/painting/krishna.jpg';
+import penart from '../assets/sketches/penart/krishnaradha.jpg';
 
 const ArtTypes = () => {
   const navigate = useNavigate();
 
   const artTypes = [
     {
-      title: "Travel Inspired Art",
-      image: img1,
+      title: "Charcoal",
+      image: charcoal,
       link: "travel-inspired-art"
     },
     {
-      title: "Abstract Art",
-      image: img1,
+      title: "Graphite",
+      image: graphite,
       link: "abstract-art"
     },
     {
-      title: "Boho Art",
-      image: img1,
+      title: "Painting",
+      image: painting,
       link: "boho-art"
     },
     {
-      title: "Modern Art",
-      image: img1,
+      title: "Pen Art",
+      image: penart,
       link: "modern-art"
     }
   ];
