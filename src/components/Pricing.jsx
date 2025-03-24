@@ -16,9 +16,8 @@ const Pricing = () => {
       buttonText: "Details",
       icon: "📦",
       image: image600,
-      storage: "10GB",
-      users: "2",
-      support: "Email"
+      storage: "Customized Sketches",
+      support: "Contact if you want to order"
     },
     {
       name: "Sketch Paper Layout A3",
@@ -27,9 +26,8 @@ const Pricing = () => {
       buttonText: "Details",
       icon: "📦",
       image: image1000,
-      storage: "50GB",
-      users: "10",
-      support: "Priority"
+      storage: "Customized Sketches",
+      support: "Contact if you want to order"
     }
   ];
 

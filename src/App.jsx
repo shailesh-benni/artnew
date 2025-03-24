@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar"
 import Pricing from "./components/Pricing"
 import Contact from "./components/Contact"
 import GalleryPage from "./components/GalleryPage"
+import Footer from './components/Footer'
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
               <ArtTypes/>
               <Pricing/>
               <Contact/>
+              <Footer/>
             </>
           }/>
           <Route path="/gallery/:type" element={<GalleryPage />} />
