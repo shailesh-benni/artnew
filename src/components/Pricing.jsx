@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import './Pricing.css';
 import Modal from './Modal';
-import image600 from '../assets/sketches/graphite/uncleaunty.jpg';
-import image1000 from '../assets/sketches/pricing1k.png'; // Make sure this image exists in your assets
+import image1000 from '../assets/sketches/graphite/uncleaunty.jpg';
+import image600 from '../assets/sketches/pricing1k.png'; // Make sure this image exists in your assets
 
 const Pricing = () => {
   const [selectedPlan, setSelectedPlan] = useState(null);

@@ -22,7 +22,7 @@ const Navbar = () => {
   return (
     <header className={`header ${visible ? '' : 'header-hidden'}`}>
       <div className="announcement-bar">
-        HOLI SALE: FLAT 15% OFF ON CHECKOUT →
+        GANESH CHATURTHI SALE: FLAT 15% OFF ON CHECKOUT →
       </div>
       
       <div className="main-header">
