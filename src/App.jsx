@@ -6,6 +6,7 @@ import Pricing from "./components/Pricing"
 import Contact from "./components/Contact"
 import GalleryPage from "./components/GalleryPage"
 import Footer from './components/Footer'
+import Gallery from './components/Gallery'
 
 function App() {
   return (

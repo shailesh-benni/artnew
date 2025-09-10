@@ -158,19 +158,22 @@ const GalleryPage = () => {
         ))}
       </div>
 
-      {selectedImage && (
-        <div className="modal-overlay" onClick={() => setSelectedImage(null)}>
-          <div className="modal-content" onClick={e => e.stopPropagation()}>
-            <button 
-              className="modal-close"
-              onClick={() => setSelectedImage(null)}
-            >
-              ×
-            </button>
-            <img src={selectedImage.src} alt={selectedImage.title} />
-          </div>
-        </div>
-      )}
+{selectedImage && (
+  <div className="art-modal-overlay" onClick={() => setSelectedImage(null)}>
+    <div className="art-modal-simple" onClick={e => e.stopPropagation()}>
+      <button 
+        className="modal-close-btn"
+        onClick={() => setSelectedImage(null)}
+      >
+        ×
+      </button>
+      <div className="modal-image-simple">
+        <img src={selectedImage.src} alt={selectedImage.title} />
+      </div>
+    </div>
+  </div>
+)}
+
     </div>
   );
 };
